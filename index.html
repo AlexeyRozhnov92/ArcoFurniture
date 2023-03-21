@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="Style/style.css">
+   <link rel="stylesheet" href="Style/normalize.css">
+   <title>АркоМебель</title>
+</head>
+<body>
+    <header class="container">
+      <div class="intro">
+        <div class="intro__item">
+         <button class="city">Ростов</button>
+            <a class="intro__list" href="#">Акции</a>
+            <a class="intro__list" href="#">Сборка</a>
+            <a class="intro__list" href="#">Оплата</a>
+            <a class="intro__list" href="#">Доставка</a>
+        </div>
+        <div class="intro__item__second">
+            <a class="intro__list" href="#">Наши работы</a>
+            <a class="intro__list" href="#">Контакты</a>
+        </div>
+      </div>
+        <div class="header">
+            <a class="header__logo" href="#">
+                <img src="Img/Logo.png" alt="Логотип магазина">
+            </a>
+            <div class="header__get-to">
+               <p class="header__address">ул. Московская, 144 корп. - 1</p>
+               <a href="#" class="header__map">Схема проезда</a>
+            </div>
+            <form>
+               <input class="header__button" type="image" id="image" alt="search" src="./Img/Search.svg">
+               <input class="header__input" placeholder="Поиск" type="search">
+            </form>
+            <div>
+               <p class="phone-number">8 (961) 525 91 91</p>
+               <button class="back-call" type="button">Заказать звонок</button>
+            </div>
+            <ul class="header__enter">
+               <li><a class="header__account" href="#">Войти</a></li>
+               <li><a class="header__account" href="#">Избранное</a></li>
+               <li><a class="header__account" href="#">Корзина</a></li>
+            </ul>
+        </div>
+        <nav class="navigation">
+         <ul class="navigation__item">
+            <li class="navigation__list"><button class="navigation__text" type="button">КУХНИ</button></li>
+            <div class="visualy__hiden">
+                <a href="#">Модульные кухни</a>
+                <a href="#">Готовые комплекты</a>
+                <a href="#">Маленькие кухни</a>
+                <a href="#">Угловые кухни</a>
+                <a href="#">Кухонные уголки</a>
+                <a href="#">Столы кухонные</a>
+                <a href="#">Стулья для кухни</a>
+                <a href="#">Комплектующие</a>
+            </div>
+            <li class="navigation__list"><button class="navigation__text" type="button">ГОСТИННЫЕ</button></li>
+            <li class="navigation__list"><button class="navigation__text" type="button">СПАЛЬНИ</button></li>
+            <li class="navigation__list"><button class="navigation__text" type="button">ПРИХОЖИЕ</button></li>
+            <li class="navigation__list"><button class="navigation__text" type="button">ШКАФЫ-КУПЕ</button></li>
+            <li class="navigation__list"><button class="navigation__text" type="button">ДЕТСКИЕ</button></li>
+            <li class="navigation__list"><button class="navigation__text" type="button">ДИВАНЫ</button></li>
+            <li class="navigation__list-second"><button class="navigation__text-second" type="button">ГДЕ ПОСМОТРЕТЬ</button></li>
+         </ul>
+        </nav>
+        <div class="grey-background"></div>
+    </header>
+    <main class="container">
+      <div class="advantages">
+        <h1 class="advantages__header">НАШИ ПРЕИМУЩЕСТВА</h1>
+        <ul class="advantages__item">
+         <li class="advantages__list"><a class="advantages__link" href="#">Удобное расположение магазина</a></li>
+         <li class="advantages__list"><a class="advantages__link" href="#">Быстрая доставка</a></li>
+         <li class="advantages__list"><a class="advantages__link-second" href="#">Низкие цены
+         </a><p class="advantages__text">Если найдете дешевле - сделаем скидку</p></li>
+        <li class="advantages__list"><a class="advantages__link" href="#">Гарантия качества</a></li>
+      </div>
+        <div>
+         <h2 class="catalog">КАТАЛОГ</h2> 
+           <ul class="catalog__item">
+             <li class="catalog__list"><a class="catalog__link" href="#"><p class="catalog__text">Кухни</p><img class="catalog__img" src="Img/interior-of-kitchen.jpg"></a></li>
+             <li class="catalog__list"><a class="catalog__link" href="#"><p class="catalog__text">Гостинные</p><img class="catalog__img" src="Img/living-room.jpg"></a></li>
+             <li class="catalog__list"><a class="catalog__link" href="#"><p class="catalog__text">Спальни</p><img class="catalog__img" src="Img/master-bedroom.jpg"></a></li>
+             <li class="catalog__list"><a class="catalog__link" href="#"><p class="catalog__text">Прихожие</p><img class="catalog__img" src="Img/house-hallway.jpg"></a></li>
+             <li class="catalog__list"><a class="catalog__link" href="#"><p class="catalog__text">Шкафы-купе</p><img class="catalog__img" src="Img/coupe.jpg"></a></li>
+             <li class="catalog__list"><a class="catalog__link" href="#"><p class="catalog__text">Детские</p><img class="catalog__img" src="Img/childrens-room.jpg"></a></li>
+             <li class="catalog__list"><a class="catalog__link" href="#"><p class="catalog__text">Диваны</p><img class="catalog__img" src="Img/lounge-sofa.jpg"></a></li>
+             <li class="catalog__list"><a class="catalog__link" href="#"><p class="catalog__text">Столы и стулья</p><img class="catalog__img" src="Img/business-meeting-room.jpg"></a></li>
+           </ul>
+        </div>
+        <div class="popular">
+         <section class="popular__product"><h2 class="popular__title">ПОПУЛЯРНЫЕ ТОВАРЫ</h2>
+          <button class="popular__all" type="button">Все товары</button>
+         </section>
+           <div class="popular__layout">
+            <div class="popular__card">
+                <img class="popular__image" src="Img/popular-bedroom2.jpg">
+             <section class="">
+               <div class="popular__scroll">
+                    <button class="popular__scroll-button" type="button"></button>
+                    <button class="popular__scroll-button" type="button"></button>
+                    <button class="popular__scroll-button" type="button"></button>
+             </div>
+             <p class="popular__text">Мори кровать КРМ 900.1</p>
+             <div class="popular__color">
+                <button class="popular__color-first" type="button"></button>
+                <button class="popular__color-second" type="button"></button>
+                <button class="popular__color-third" type="button"></button>
+             </div>
+             <div class="popular__price">
+               <p class="popular__price-first">7 159 руб.</p>
+               <h3 class="popular__price-second">5 017 руб.</h3>
+            </div>
+             <div class="popular__buy">
+               <a class="popular__link" href="#"><p class="popular__lint-text">КУПИТЬ</p></a>
+                <button class="popular__heart" type="button"></button>
+             </div>
+             <div class="size">
+                <p>Размеры:</p>
+                <p>Ширина 1635 мм</p>
+                <p>Высота 650 мм</p>
+                <p>Глубина 2032 мм</p>
+             </div>
+            </section>
+            </div>
+            <div class="popular__card">
+                <img class="popular__image" src="Img/popular-livingroom.jpg">
+                <section class="">
+                  <div class="popular__scroll">
+                       <button class="popular__scroll-button" type="button"></button>
+                       <button class="popular__scroll-button" type="button"></button>
+                       <button class="popular__scroll-button" type="button"></button>
+                </div>
+                <p class="popular__text">Мори кровать КРМ 900.1</p>
+                <div class="popular__color">
+                   <button class="popular__color-first" type="button"></button>
+                   <button class="popular__color-second" type="button"></button>
+                   <button class="popular__color-third" type="button"></button>
+                </div>
+                <div class="popular__price">
+                  <p class="popular__price-first">7 159 руб.</p>
+                  <h3 class="popular__price-second">5 017 руб.</h3>
+               </div>
+                <div class="popular__buy">
+                  <a class="popular__link" href="#"><p class="popular__lint-text">КУПИТЬ</p></a>
+                   <button class="popular__heart" type="button"></button>
+                </div>
+                <div class="size">
+                   <p>Размеры:</p>
+                   <p>Ширина 1635 мм</p>
+                   <p>Высота 650 мм</p>
+                   <p>Глубина 2032 мм</p>
+                </div>
+               </section>
+               </div>
+            <div class="popular__card">
+                <img class="popular__image" src="Img/popular-bedroom.jpg">
+                <section class="">
+                  <div class="popular__scroll">
+                       <button class="popular__scroll-button" type="button"></button>
+                       <button class="popular__scroll-button" type="button"></button>
+                       <button class="popular__scroll-button" type="button"></button>
+                </div>
+                <p class="popular__text">Мори кровать КРМ 900.1</p>
+                <div class="popular__color">
+                   <button class="popular__color-first" type="button"></button>
+                   <button class="popular__color-second" type="button"></button>
+                   <button class="popular__color-third" type="button"></button>
+                </div>
+                <div class="popular__price">
+                  <p class="popular__price-first">7 159 руб.</p>
+                  <h3 class="popular__price-second">5 017 руб.</h3>
+               </div>
+                <div class="popular__buy">
+                  <a class="popular__link" href="#"><p class="popular__lint-text">КУПИТЬ</p></a>
+                   <button class="popular__heart" type="button"></button>
+                </div>
+                <div class="size">
+                   <p>Размеры:</p>
+                   <p>Ширина 1635 мм</p>
+                   <p>Высота 650 мм</p>
+                   <p>Глубина 2032 мм</p>
+                </div>
+               </section>
+               </div>
+            <div class="popular__card">
+                <img class="popular__image" src="Img/popular-bedroom.jpg">
+                <section class="">
+                  <div class="popular__scroll">
+                       <button class="popular__scroll-button" type="button"></button>
+                       <button class="popular__scroll-button" type="button"></button>
+                       <button class="popular__scroll-button" type="button"></button>
+                </div>
+                <p class="popular__text">Мори кровать КРМ 900.1</p>
+                <div class="popular__color">
+                   <button class="popular__color-first" type="button"></button>
+                   <button class="popular__color-second" type="button"></button>
+                   <button class="popular__color-third" type="button"></button>
+                </div>
+                <div class="popular__price">
+                  <p class="popular__price-first">7 159 руб.</p>
+                  <h3 class="popular__price-second">5 017 руб.</h3>
+               </div>
+                <div class="popular__buy">
+                  <a class="popular__link" href="#"><p class="popular__lint-text">КУПИТЬ</p></a>
+                   <button class="popular__heart" type="button"></button>
+                </div>
+                <div class="size">
+                   <p>Размеры:</p>
+                   <p>Ширина 1635 мм</p>
+                   <p>Высота 650 мм</p>
+                   <p>Глубина 2032 мм</p>
+                </div>
+               </section>
+               </div>
+            <div class="popular__card">
+                <img class="popular__image" src="Img/popular-livingroom.jpg">
+                <section class="">
+                  <div class="popular__scroll">
+                       <button class="popular__scroll-button" type="button"></button>
+                       <button class="popular__scroll-button" type="button"></button>
+                       <button class="popular__scroll-button" type="button"></button>
+                </div>
+                <p class="popular__text">Мори кровать КРМ 900.1</p>
+                <div class="popular__color">
+                   <button class="popular__color-first" type="button"></button>
+                   <button class="popular__color-second" type="button"></button>
+                   <button class="popular__color-third" type="button"></button>
+                </div>
+                <div class="popular__price">
+                  <p class="popular__price-first">7 159 руб.</p>
+                  <h3 class="popular__price-second">5 017 руб.</h3>
+               </div>
+                <div class="popular__buy">
+                  <a class="popular__link" href="#"><p class="popular__lint-text">КУПИТЬ</p></a>
+                   <button class="popular__heart" type="button"></button>
+                </div>
+                <div class="size">
+                   <p>Размеры:</p>
+                   <p>Ширина 1635 мм</p>
+                   <p>Высота 650 мм</p>
+                   <p>Глубина 2032 мм</p>
+                </div>
+               </section>
+               </div>
+            <div class="popular__card">
+                <img class="popular__image" src="Img/popular-livingroom.jpg">
+                <section class="">
+                  <div class="popular__scroll">
+                       <button class="popular__scroll-button" type="button"></button>
+                       <button class="popular__scroll-button" type="button"></button>
+                       <button class="popular__scroll-button" type="button"></button>
+                </div>
+                <p class="popular__text">Мори кровать КРМ 900.1</p>
+                <div class="popular__color">
+                   <button class="popular__color-first" type="button"></button>
+                   <button class="popular__color-second" type="button"></button>
+                   <button class="popular__color-third" type="button"></button>
+                </div>
+                <div class="popular__price">
+                  <p class="popular__price-first">7 159 руб.</p>
+                  <h3 class="popular__price-second">5 017 руб.</h3>
+               </div>
+                <div class="popular__buy">
+                  <a class="popular__link" href="#"><p class="popular__lint-text">КУПИТЬ</p></a>
+                   <button class="popular__heart" type="button"></button>
+                </div>
+                <div class="size">
+                   <p>Размеры:</p>
+                   <p>Ширина 1635 мм</p>
+                   <p>Высота 650 мм</p>
+                   <p>Глубина 2032 мм</p>
+                </div>
+               </section>
+               </div>
+            <div class="popular__card">
+                <img class="popular__image" src="Img/popular-bedroom2.jpg">
+                <section class="">
+                  <div class="popular__scroll">
+                       <button class="popular__scroll-button" type="button"></button>
+                       <button class="popular__scroll-button" type="button"></button>
+                       <button class="popular__scroll-button" type="button"></button>
+                </div>
+                <p class="popular__text">Мори кровать КРМ 900.1</p>
+                <div class="popular__color">
+                   <button class="popular__color-first" type="button"></button>
+                   <button class="popular__color-second" type="button"></button>
+                   <button class="popular__color-third" type="button"></button>
+                </div>
+                <div class="popular__price">
+                  <p class="popular__price-first">7 159 руб.</p>
+                  <h3 class="popular__price-second">5 017 руб.</h3>
+               </div>
+                <div class="popular__buy">
+                  <a class="popular__link" href="#"><p class="popular__lint-text">КУПИТЬ</p></a>
+                   <button class="popular__heart" type="button"></button>
+                </div>
+                <div class="size">
+                   <p>Размеры:</p>
+                   <p>Ширина 1635 мм</p>
+                   <p>Высота 650 мм</p>
+                   <p>Глубина 2032 мм</p>
+                </div>
+               </section>
+               </div>
+            <div class="popular__card">
+                <img class="popular__image" src="Img/popular-bedroom2.jpg">
+                <section class="">
+                  <div class="popular__scroll">
+                       <button class="popular__scroll-button" type="button"></button>
+                       <button class="popular__scroll-button" type="button"></button>
+                       <button class="popular__scroll-button" type="button"></button>
+                </div>
+                <p class="popular__text">Мори кровать КРМ 900.1</p>
+                <div class="popular__color">
+                   <button class="popular__color-first" type="button"></button>
+                   <button class="popular__color-second" type="button"></button>
+                   <button class="popular__color-third" type="button"></button>
+                </div>
+                <div class="popular__price">
+                  <p class="popular__price-first">7 159 руб.</p>
+                  <h3 class="popular__price-second">5 017 руб.</h3>
+               </div>
+                <div class="popular__buy">
+                  <a class="popular__link" href="#"><p class="popular__lint-text">КУПИТЬ</p></a>
+                   <button class="popular__heart" type="button"></button>
+                </div>
+                <div class="size">
+                   <p>Размеры:</p>
+                   <p>Ширина 1635 мм</p>
+                   <p>Высота 650 мм</p>
+                   <p>Глубина 2032 мм</p>
+                </div>
+               </section>
+               </div>
+             <button type="button">Показать ещё</button>
+            </div>
+          </div>
+         </div>
+        <h3>ПОПУЛЯРНЫЕ КАТЕГОРИИ</h3>
+        <div>
+            <a href="#">КУХНИ</a>
+            <a href="#">КРОВАТИ</a>
+            <a href="#">ГОСТИННЫЕ</a>
+            <a href="#">ШКАФ-КУПЕ</a>
+            <a href="#">СПАЛЬНИ</a>
+            <a href="#">ПРИХОЖИЕ</a>
+            <a href="#">ДИВАНЫ</a>
+            <a href="#">ДЕТСКИЕ</a>
+            <a href="#">СТУЛЬЯ</a>
+            <a href="#">СТОЛЫ</a>
+            <a href="#">ШКАФ-КУПЕ</a>
+            <a href="#">ШКАФ-КУПЕ</a>
+            <a href="#">ПРИХОЖИЕ</a>
+            <a href="#">ДИВАНЫ</a>
+            <a href="#">ГОСТИННЫЕ</a>
+            <a href="#">КУХНИ</a>
+            <a href="#">КРОВАТИ</a>
+            <a href="#">ГОСТИННЫЕ</a>
+            <a href="#">ШКАФ-КУПЕ</a>
+            <a href="#">СПАЛЬНИ</a>
+            <a href="#">ПРИХОЖИЕ</a>
+            <a href="#">ДИВАНЫ</a>
+            <a href="#">ДЕТСКИЕ</a>
+        </div>
+        <h3>ТОВАРЫ ПО АКЦИИ</h3>
+        <div>
+            <img src="Img/popular-bedroom.jpg">
+         <p>Ронда КРР1600.1</p>
+         <p>7 159 руб.</p>
+         <h3>5 017 руб.</h3>
+         <div>
+            <a href="#">КУПИТЬ</a>
+            <button type="button"></button>
+         </div>
+         <div>
+            <img src="Img/popular-bedroom.jpg">
+         <p>Гранд шкаф верхний горизонтальный глубокий стекло 500</p>
+         <p>7 159 руб.</p>
+         <h3>5 017 руб.</h3>
+         <div>
+            <a href="#">КУПИТЬ</a>
+            <button type="button"></button>
+         </div>
+         <div>
+            <img src="Img/popular-bedroom.jpg">
+         <p>Ронда КРР1600.1</p>
+         <p>7 159 руб.</p>
+         <h3>5 017 руб.</h3>
+         <div>
+            <a href="#">КУПИТЬ</a>
+            <button type="button"></button>
+         </div>
+         <div>
+            <img src="Img/popular-bedroom.jpg">
+         <p>Ронда КРР1600.1</p>
+         <p>7 159 руб.</p>
+         <h3>5 017 руб.</h3>
+         <div>
+            <a href="#">КУПИТЬ</a>
+            <button type="button"></button>
+         </div>
+         <h3>НАШИ РАБОТЫ</h3>
+         <div>
+            <a href="#"><img src="Img/gletcher.jpg"></a>
+            <a href="#"><img src="Img/denver.png"></a>
+            <a href="#"><img src="Img/ameli.jpg"></a>
+            <a href="#"><img src="Img/london.jpg"></a>
+         </div>
+         <div class="contacts">
+            <h2>НАШИ КОНТАКТЫ</h2>
+            <h3>Краснодар, Московская 144 корпус -1</h3>
+            <a class="phone-number" href="tel:+7 961-525-91-91">Тел. +7 961-525-91-91</a>
+         </div>
+         <div>
+            <h2>МЫ В INSTAGRAM</h2>
+            <a><img src="Img/instagram.jpg"></a>
+         </div>
+        </div>
+    </main>
+    <footer>
+      <div>
+        <a href="#"><img src=""></a>
+      </div>
+      <a href="#"><h3>Кухни</h3></a>
+       <ul>
+         <a href="#"><li>Модульные кухни</li></a>
+         <a href="#"><li>Готовые комплекты</li></a>
+         <a href="#"><li>Маленькие кухни</li></a>
+         <a href="#"><li>Угловые кухни</li></a>
+         <a href="#"><li>Кухонные уголки</li></a>
+         <a href="#"><li>Столы кухонные</li></a>
+         <a href="#"><li>Стулья для кухни</li></a>
+         <a href="#"><li>Комплектующие</li></a>
+       </ul>
+      <a href="#"><h3>Гостинные</h3></a>
+       <ul>
+         <a href="#"><li>Модульные</li></a>
+         <a href="#"><li>Журнальные столы</li></a>
+         <a href="#"><li>Полки</li></a>
+         <a href="#"><li>Тумбы под ТВ</li></a>
+         <a href="#"><li>Шкафы</li></a>
+         <a href="#"><li>Стеллажи</li></a>
+       </ul>
+       <a href="#"><h3>Спальни</h3></a>
+       <ul>
+         <a href="#"><li>Кровати</li></a>
+         <a href="#"><li>Матрацы</li></a>
+         <a href="#"><li>Шкафы</li></a>
+         <a href="#"><li>Комоды</li></a>
+         <a href="#"><li>Столы туалетные</li></a>
+         <a href="#"><li>Тумбы прикроватные</li></a>
+         <a href="#"><li>Зеркала</li></a>
+       </ul>
+      <a href="#"><h3>Диваны</h3></a>
+       <ul>
+         <a href="#"><li>Прямые</li></a>
+         <a href="#"><li>Угловые</li></a>
+         <a href="#"><li>На металлокаркасе</li></a>
+         <a href="#"><li>Кресла</li></a>
+       </ul>
+      <a href="#"><h3>Детские</h3></a>
+       <ul>
+         <a href="#"><li>Кровати</li></a>
+         <a href="#"><li>Полки</li></a>
+         <a href="#"><li>Столы</li></a>
+         <a href="#"><li>Тумбы</li></a>
+         <a href="#"><li>Шкафы</li></a>
+         <a href="#"><li>Комоды</li></a>
+       </ul>
+      <a href="#"><h3>Прихожие</h3></a>
+       <ul>
+         <a href="#"><li>Модульные</li></a>
+         <a href="#"><li>Обувницы</li></a>
+       </ul>
+      <a href="#"><h3>Шкафы-купе</h3></a>
+    </footer>--> 
+</body>
+</html>
