@@ -50,7 +50,7 @@ body {
     line-height: 23px;
     color: #1D1818;
     border: none;
-    background: #ffffff;
+    background: #f5f5f5;
 }
 
 .city:hover {
@@ -83,8 +83,7 @@ body {
 }
 
 .intro__list:hover {
-    color: #ffffff;
-    background: #5a6fe4;
+    background: #aaaaaa;
     border-radius: 5px;
     text-decoration-line: underline;
 
@@ -198,8 +197,7 @@ body {
 }
 
 .header__account:hover {
-    color: #ffffff;
-    background: #5a6fe4;
+    background: #aaaaaa;
     border-radius: 5px;
     text-decoration-line: underline;
 }
@@ -390,6 +388,7 @@ body {
 .popular__product {
     display: flex;
     justify-content: space-between;
+    padding-left: 40px;
 }
 
 
@@ -420,11 +419,9 @@ body {
 .popular__layout{
     display: grid;
     grid-template-columns: 360px 360px 360px 360px;
-}
-
-.popular {
     padding-left: 40px;
 }
+
 
 .popular__card{
     display: table;
@@ -593,4 +590,62 @@ body {
     background-repeat: no-repeat;
     border: none;
     background-color: #ffffff;
+}
+
+.show-more {
+    display: block;
+    margin: 0 auto;
+    width: 1440px;
+    height: 75px;
+    background: #c3c3c3;
+    border-radius: 5px;
+    border: #c3c3c3;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #1D1818;
+}
+
+.show-more:hover {
+    background: #696969;
+    border: #696969;
+    color: #cdcdc6;
+}
+
+.categories {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 39px;
+    color: #000000;
+    padding:20px 40px 20px 40px;
+}
+
+.categories__item {
+    display: flex;
+    width: 1480px;
+    height: 150px;
+}
+
+.categories__list {
+    text-decoration: none;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #384685;
+    border: 1px solid #384685;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.categories__list:hover {
+    background: #384685;
+    border-radius: 5px;
+    color: #ffffff;    
 }
