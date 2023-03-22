@@ -642,10 +642,56 @@ body {
     border-radius: 5px;
     margin: 10px;
     padding: 10px;
+    text-align: center;
 }
 
 .categories__list:hover {
     background: #384685;
     border-radius: 5px;
     color: #ffffff;    
+}
+.sale {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 39px;
+    color: #1D1818;
+}
+
+.sale__item {
+    display: flex;
+    flex-direction: row;
+}
+
+.sale__card {
+    margin: 15px;
+    width: 330px;
+    height: 490px;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+}
+
+.sale__img {
+    display: block;
+    margin: 0 auto;
+    width: 284px;
+    height: 252px;
+    padding-top: 25px;
+}
+
+.sale__name {
+    padding-left: 25px;
+    width: 290px;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.sale__price {
+    display: flex;
+    flex-direction: row;
 }
