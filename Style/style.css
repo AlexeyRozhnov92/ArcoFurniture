@@ -51,6 +51,7 @@ body {
     color: #1D1818;
     border: none;
     background: #f5f5f5;
+    transition: .5s;
 }
 
 .city:hover {
@@ -79,14 +80,13 @@ body {
     padding: 0 16px;
     color: #1D1818;
     text-decoration: none;
-    
+    transition: .5s;
 }
 
 .intro__list:hover {
     background: #aaaaaa;
     border-radius: 5px;
     text-decoration-line: underline;
-
 }
 
 .header {
@@ -194,6 +194,7 @@ body {
     font-size: 18px;
     line-height: 23px;
     color: #1D1818;
+    transition: .5s;
 }
 
 .header__account:hover {
@@ -234,6 +235,7 @@ body {
     background: #A8D1E7;
     border: none;
     color: #1D1818;
+    transition: .5s;
 }
 
 .navigation__text:hover {
@@ -410,6 +412,7 @@ body {
     color: #1D1818;
     background: #f5f5f5;
     border: none;
+    transition: .5s;
 }
 
 .popular__all:hover {
@@ -556,6 +559,7 @@ body {
     border-radius: 5px;
     text-decoration: none;
     color: #1D1818;
+    transition: .5s;
 }
 
 .popular__link:hover {
@@ -581,6 +585,7 @@ body {
     background-repeat: no-repeat;
     border: none;
     background-color: #ffffff;
+    transition: .5s;
 }
 
 .popular__heart:hover {
@@ -606,6 +611,7 @@ body {
     font-size: 18px;
     line-height: 23px;
     color: #1D1818;
+    transition: .5s;
 }
 
 .show-more:hover {
@@ -626,23 +632,30 @@ body {
 
 .categories__item {
     display: flex;
-    width: 1480px;
-    height: 150px;
+    flex-wrap: wrap;
+    max-width: 1550px;
 }
 
 .categories__list {
     text-decoration: none;
-    font-family: 'PT Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 23px;
-    color: #384685;
     border: 1px solid #384685;
     border-radius: 5px;
     margin: 10px;
     padding: 10px;
     text-align: center;
+    transition: .5s;
+    height: 45px;
+    width: 150px;
+    color: #384685;
+}
+
+.categories__list-text{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    margin: 10px 20px 10px 20px
 }
 
 .categories__list:hover {
@@ -667,9 +680,10 @@ body {
 .sale__card {
     margin: 15px;
     width: 330px;
-    height: 490px;
+    height: 540px;
     box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.05);
     border-radius: 5px;
+    background: #ffffff;
 }
 
 .sale__img {
@@ -694,4 +708,245 @@ body {
 .sale__price {
     display: flex;
     flex-direction: row;
+    text-align: center;
+    border-bottom: 1px solid #E2E2E2;
+    border-top: 1px solid #E2E2E2;
+}
+
+.sale__price-first {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    text-decoration-line: line-through;
+    color: #BDBDBD;
+}
+
+.sale__price-second {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 32px;
+    color: #000000;
+}
+
+.sale__buy {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 290px;
+    height: 66px;
+    flex-direction: row;
+    text-align: center;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: #1D1818;
+    justify-content: center;
+}
+
+.work {
+    display: flex;
+    justify-content: space-between;
+}
+
+.work__head {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 39px;
+    color: #1D1818;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.work__all {
+    padding-top: 30px;
+    margin-right: 20px;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #1D1818;
+    text-align: center;
+}
+
+.work__bloks {
+    width: 1500px;
+    height: 850px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.block1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.block2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.block3 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.block4 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.work__img {
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.location{
+    display: flex;
+}
+
+.contacts {
+    background-image: url(../Img/background-sofa.png);
+    width: 713px;
+    height: 488px;
+    border-radius: 10px 0px 0px 10px;
+    margin-left: 20px;
+}
+
+.contacts::after {
+    content: "";
+    display: block;
+    width: 713px;
+    height: 488px;
+    border-radius: 10px 0px 0px 10px;
+    background: rgba(243, 231, 198, 0.6);
+}
+.contacts__container {
+    display: block;
+    position: absolute;
+    
+}
+
+.contacts__head {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 39px;
+    color: #1D1818;
+}
+
+.contacts__text {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 32px;
+    color: #1D1818;
+}
+
+.contacts__phone {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 32px;
+    color: #1D1818;    
+}
+
+.contacts__button{
+    width: 259px;
+    height: 58px;
+    background: #384685;
+    border-radius: 5px;
+    transition: .5s;
+    color: #FFFFFF;
+    border: #384685;
+}
+
+.contacts__button-text {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 32px;
+    margin-top: 10px;
+}
+
+.contacts__button:hover {
+    background: #ffffff;
+    color: #384685;
+}
+
+.map {
+    width: 713px;
+    height: 488px;
+    border-radius: 0px 10px 10px 0px;
+    border: none;
+}
+
+.inst {
+    margin-left: 20px;
+}
+
+.inst__head{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 39px;
+    color: #1D1818;
+}
+
+.inst__link{
+    padding: 40px 150px 40px 150px;
+}
+
+.footer {
+    background: #384685;
+}
+
+.footer__nav {
+    display: flex;
+}
+
+.footer__item {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer__list {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+    list-style-type: none;
+}
+
+.footer__link {
+    text-decoration: none;
 }
